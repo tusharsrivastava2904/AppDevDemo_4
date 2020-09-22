@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Demo 4</string>
+    <string name="quote">Android Development...</string>
+    <string-array name="states">
+        <item>Select State</item>
+        <item>Andhra Pradesh (AP)</item>
+        <item>Arunachal Pradesh (AR)</item>
+        <item>Assam (AS)</item>
+        <item>Bihar (BR)</item>
+        <item>Chhattisgarh (CG)</item>
+        <item>Goa (GA)</item>
+        <item>Gujarat (GJ)</item>
+        <item>Haryana (HR)</item>
+        <item>Himachal Pradesh (HP)</item>
+        <item>Jammu and Kashmir (JK)</item>
+        <item>Jharkhand (JH)</item>
+        <item>Karnataka (KA)</item>
+        <item>Kerala (KL)</item>
+        <item>Madhya Pradesh (MP)</item>
+        <item>Maharashtra (MH)</item>
+        <item>Manipur (MN)</item>
+        <item>Meghalaya (ML)</item>
+        <item>Mizoram (MZ)</item>
+        <item>Nagaland (NL)</item>
+        <item>Odisha(OR)</item>
+        <item>Punjab (PB)</item>
+        <item>Rajasthan (RJ)</item>
+        <item>Sikkim (SK)</item>
+        <item>Tamil Nadu (TN)</item>
+        <item>Telangana (TS)</item>
+        <item>Tripura (TR)</item>
+        <item>Uttar Pradesh (UP)</item>
+        <item>Uttarakhand (UK)</item>
+        <item>West Bengal (WB)</item>
+    </string-array>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_gallery">About Us</string>
+    <string name="menu_slideshow">Contact Us</string>
+    <string name="menu_logout">Logout</string>
+</resources>

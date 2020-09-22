@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--LOGO-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:id="@+id/feedback_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Subject"
+        android:padding="15dp"
+        android:id="@+id/feedback_subject"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Type Your Feedback Here..."
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:gravity="top"
+        android:id="@+id/feedback_message"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:background="@color/button"
+        android:layout_marginTop="30dp"/>
+    
+</LinearLayout>
